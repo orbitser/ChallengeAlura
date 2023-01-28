@@ -1,0 +1,40 @@
+<html lang="es-mx" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="encriptador.js"></script>
+        <title> Challenge Encriptador </title>
+    </head>
+
+    <body>
+        <div class="contenedor">
+            <div class="logo">
+                <img class="logoimagen" src="imagenes/orbit_logo2.png">
+                <h1 class="titulo"> Encriptador de Mensajes </h1>
+            </div>
+            <div class="izquierda">
+                <input class="texto" id="inputText" type="text" placeholder=" Ingrese el texto a encriptar aquí ">
+            </div>
+            <div class="derecha">
+                <img id="monoLupa" src="imagenes/ningun-mensaje.png" >
+                <h1 id="mensaje"> No se encontró ningún mensaje </h1>
+                <textarea id="ingresaTexto" name="nombre" rows="8" cols="80"> Ingresa el texto a encriptar o desencriptar. </textarea>
+                <button id="copiar" type="button" name="button" onclick="copy()">Copiar</button>
+            </div>
+            <div class="boton-izquierdo">
+                <p> Solo minúsculas y sin acentos </p>
+                <button type="button" id="botonEncrip" onclick="encriptar()">Encriptar</button>
+                <button type="button" id="botonDesencrip" onclick="desencriptar()">Desencriptar</button>
+            </div>
+
+        </div>
+
+
+    </body>
+
+
+
+
+
+
+</html>
