@@ -6,8 +6,8 @@
     La letra "o" es convertida para "ober"
     La letra "u" es convertida para "ufat"  
     
-    se el orden para declarar la función 
-    y quedaría de la siguiente manera:
+    se cambio el orden para declarar la 
+    función y quedaría de la siguiente manera:
     
     e = enter
     o = ober
